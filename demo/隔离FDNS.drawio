@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T11:41:14.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.5" etag="c76MmGXL_vWRTL3ImGNA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T12:03:08.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="VzeaeR7F2P_UkN6YDJs1" version="21.6.5" type="github">
   <diagram name="第 1 页" id="LMXm2u2aBE4fPqfQGiV9">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XZGuyHMYet9k8euReRmq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XZGuyHMYet9k8euReRmq-1" target="XZGuyHMYet9k8euReRmq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-4" value="1、请求zbn.com" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XZGuyHMYet9k8euReRmq-3">
+          <mxGeometry x="-0.225" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-1" value="源" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XZGuyHMYet9k8euReRmq-2" target="XZGuyHMYet9k8euReRmq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-13" value="（正常路线）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XZGuyHMYet9k8euReRmq-10">
+          <mxGeometry x="0.1306" y="2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-2" value="FDNS&lt;br&gt;（有缓存注入漏洞）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XZGuyHMYet9k8euReRmq-5" target="XZGuyHMYet9k8euReRmq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-14" value="（正常路线）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XZGuyHMYet9k8euReRmq-12">
+          <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-5" value="（其他基础设施）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="578" y="310" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-19" value="缓存&lt;br&gt;zbn.com-&amp;gt;Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XZGuyHMYet9k8euReRmq-5">
+          <mxGeometry x="20" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XZGuyHMYet9k8euReRmq-6" target="XZGuyHMYet9k8euReRmq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-6" value="2、立即响应IP为X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-8" value="缓存&lt;br&gt;zbn.com-&amp;gt;X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-9" value="3、缓存注入成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XZGuyHMYet9k8euReRmq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-17" value="响应IP为Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XZGuyHMYet9k8euReRmq-16">
+          <mxGeometry x="-0.0314" y="2" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-11" value="我们搭建的ADNS" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="758" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGuyHMYet9k8euReRmq-18" value="4、正常响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="410" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
