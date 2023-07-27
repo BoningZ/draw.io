@@ -1,9 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T05:46:09.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.5" etag="lLo9nTy7LpNg03Tf00QC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T06:07:40.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="V-pmaQxL8KFHah4Ji1Qw" version="21.6.5" type="github">
   <diagram name="第 1 页" id="iMi39qVGIn6acYOHxgXz">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-1" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="204.5" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-2" value="攻击者" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.icon22;" vertex="1" parent="1">
+          <mxGeometry x="444.75" y="134.5" width="40.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-3" value="DNS服务器&lt;br&gt;" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.technology_icons.icon7;" vertex="1" parent="1">
+          <mxGeometry x="639.75" y="134.5" width="34.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-4" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="652" y="204.5" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="234.5" as="sourcePoint" />
+            <mxPoint x="650" y="284.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-14" value="向50个端口发送UDP&lt;br&gt;使用随机IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T5An8C_hAf-O2U5Ausd_-10">
+          <mxGeometry x="-0.02" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-15" value="50个端口中，有n个开放" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="587" y="284.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-17" value="Linux最大允许全局突发50个ICMP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="127" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5An8C_hAf-O2U5Ausd_-18" target="T5An8C_hAf-O2U5Ausd_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-40" value="发了50-n个iCMP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T5An8C_hAf-O2U5Ausd_-38">
+          <mxGeometry x="0.6604" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-18" value="全局计数器：50" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="157" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.168;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T5An8C_hAf-O2U5Ausd_-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="414.5" as="sourcePoint" />
+            <mxPoint x="790" y="364.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.877;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T5An8C_hAf-O2U5Ausd_-3" target="T5An8C_hAf-O2U5Ausd_-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="294.5" as="sourcePoint" />
+            <mxPoint x="830" y="244.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-30" value="初始" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T5An8C_hAf-O2U5Ausd_-22">
+          <mxGeometry x="0.131" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5An8C_hAf-O2U5Ausd_-23" target="T5An8C_hAf-O2U5Ausd_-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-41" value="发了1个ICMP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T5An8C_hAf-O2U5Ausd_-39">
+          <mxGeometry x="0.5538" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-23" value="全局计数器：n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="354.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="334.5" as="sourcePoint" />
+            <mxPoint x="650" y="384.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-25" value="向关闭端口发送UDP&lt;br&gt;使用自身IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T5An8C_hAf-O2U5Ausd_-24">
+          <mxGeometry x="-0.02" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-26" value="计数器n&amp;gt;0，可回复ICMP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="587" y="390.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="424.5" as="sourcePoint" />
+            <mxPoint x="470" y="464.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-28" value="ICMP端口不可达" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="T5An8C_hAf-O2U5Ausd_-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-29" value="全局计数器：n-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="474.5" width="95" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="T5An8C_hAf-O2U5Ausd_-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="324.5" as="sourcePoint" />
+            <mxPoint x="790" y="364.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-34" value="50-n个ICMP&lt;br&gt;目标为发来的随机IP" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="T5An8C_hAf-O2U5Ausd_-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-32" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.icon11;" vertex="1" parent="1">
+          <mxGeometry x="780" y="354.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-35" value="攻击者收到ICMP&lt;br&gt;得知这50个端口中至少有一个端口开放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="474.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5An8C_hAf-O2U5Ausd_-36" value="攻击者后续可使用二分法等定位该端口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="544.5" width="400" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
