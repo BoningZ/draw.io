@@ -1,9 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T12:27:52.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" version="21.6.5" etag="c5MVx3svbr1GFNoVK3d5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T13:20:19.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="p-oDV1FYncNBD58xV2q1" version="21.6.5" type="github">
   <diagram name="第 1 页" id="hRKpJBQKrlTPl6Rmi5Hu">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vsdkG895KJQekF62wLLN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-1" target="vsdkG895KJQekF62wLLN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-8" value="1、请求：&lt;br&gt;a.a.a.a.zbn.com" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsdkG895KJQekF62wLLN-3">
+          <mxGeometry x="-0.3636" y="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-1" value="源" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="14" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-2" target="vsdkG895KJQekF62wLLN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-2" value="ODNS&lt;br&gt;a.a.a.a" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="244" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-4" target="vsdkG895KJQekF62wLLN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-4" value="RDNS&lt;br&gt;b.b.b.b" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="394" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-6" target="vsdkG895KJQekF62wLLN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-22" value="3、返回NXDOMAIN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsdkG895KJQekF62wLLN-21">
+          <mxGeometry x="-0.2106" relative="1" as="geometry">
+            <mxPoint x="-6" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-6" value="ADNS&lt;br&gt;(zbn.com)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="574" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-9" value="2、观察到：&lt;br&gt;b.b.b.b请求a.a.a.a.zbn.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="484" y="5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-10" value="得出：&lt;br&gt;a.a.a.a不是RDNS&lt;br&gt;（只是Forwarder）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="654" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-13" target="vsdkG895KJQekF62wLLN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-12" value="1、请求：&lt;br&gt;a.a.a.a.zbn.com" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsdkG895KJQekF62wLLN-11">
+          <mxGeometry x="-0.3636" y="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-13" value="源" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="14" y="185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-15" target="vsdkG895KJQekF62wLLN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-15" value="ODNS&lt;br&gt;a.a.a.a" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="244" y="185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-18" target="vsdkG895KJQekF62wLLN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-24" value="3、返回NXDOMAIN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsdkG895KJQekF62wLLN-23">
+          <mxGeometry x="-0.1024" y="1" relative="1" as="geometry">
+            <mxPoint x="69" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-18" value="ADNS&lt;br&gt;(zbn.com)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="574" y="185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-19" value="2、观察到：&lt;br&gt;a.a.a.a请求a.a.a.a.zbn.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="189" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-20" value="得出：&lt;br&gt;a.a.a.a是RDNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="654" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-25" value="源" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="277" y="541" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-27" value="？？？" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="218" y="381" width="232" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-28" value="请求IP：&lt;br&gt;a.a.a.a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="234" y="524" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.582;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.938;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vsdkG895KJQekF62wLLN-27" target="vsdkG895KJQekF62wLLN-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388" y="564" as="sourcePoint" />
+            <mxPoint x="438" y="514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsdkG895KJQekF62wLLN-30" value="应答IP：&lt;br&gt;b.b.b.b" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="463" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
