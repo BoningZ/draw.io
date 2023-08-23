@@ -1,9 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T18:16:21.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" version="21.6.8" etag="0X10VQ3b0mb6EIYea5GH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T19:24:25.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="moZcj4s673WsSxL05Kvq" version="21.6.8" type="github">
   <diagram name="第 1 页" id="_K0OQ_6PhR8VYGKOA97C">
-    <mxGraphModel>
+    <mxGraphModel dx="1236" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-1" target="4ZcVzsqAaL9k_0RK0mdm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-4" value="使用有连接的方式发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZcVzsqAaL9k_0RK0mdm-3">
+          <mxGeometry x="-0.1689" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-1" value="源" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.02;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-2" target="4ZcVzsqAaL9k_0RK0mdm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-6" value="若回复正确，说明是ODNS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZcVzsqAaL9k_0RK0mdm-5">
+          <mxGeometry x="0.0871" y="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-2" value="IP空间&lt;br&gt;（除约减部分）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-7" target="4ZcVzsqAaL9k_0RK0mdm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-12" value="[random].f(IP).zbn.cn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZcVzsqAaL9k_0RK0mdm-11">
+          <mxGeometry x="-0.2792" y="-3" relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-7" value="源" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="38" y="376" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438.4000244140625" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.995;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-8" target="4ZcVzsqAaL9k_0RK0mdm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-36" value="可判断IP是否正确（=返回的A记录）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZcVzsqAaL9k_0RK0mdm-35">
+          <mxGeometry x="0.3087" y="-4" relative="1" as="geometry">
+            <mxPoint x="40" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-8" value="已发现的FDNS&lt;br&gt;a.a.a.a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-10" value="RDNS池" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="299" width="122" height="374" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-15" value="？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4ZcVzsqAaL9k_0RK0mdm-10">
+          <mxGeometry x="4" y="104" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-20" value="RDNS1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4ZcVzsqAaL9k_0RK0mdm-10">
+          <mxGeometry x="46" y="37" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-40" value="RDNS2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4ZcVzsqAaL9k_0RK0mdm-10">
+          <mxGeometry x="25" y="190" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-41" value="RDNS3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4ZcVzsqAaL9k_0RK0mdm-10">
+          <mxGeometry x="25" y="247" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-43" value="..." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4ZcVzsqAaL9k_0RK0mdm-10">
+          <mxGeometry x="25" y="310" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-44" value="?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4ZcVzsqAaL9k_0RK0mdm-10">
+          <mxGeometry x="62" y="293" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-13" value="f()：IP到字符串的双向映射&lt;br&gt;连续、一对一" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="456" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-16" target="4ZcVzsqAaL9k_0RK0mdm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-16" value="ADNS&lt;br&gt;zbn.cn" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="653" y="319" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-17" value="random与f()每轮探测需更换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="486" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-18" target="4ZcVzsqAaL9k_0RK0mdm-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="693" y="489.79998779296875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-18" target="4ZcVzsqAaL9k_0RK0mdm-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="877.4000244140625" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-18" value="属于已有RDNS池？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="417" width="158" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-16" target="4ZcVzsqAaL9k_0RK0mdm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-20" target="4ZcVzsqAaL9k_0RK0mdm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-29" value="[idInPool].构造域名" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZcVzsqAaL9k_0RK0mdm-21">
+          <mxGeometry x="-0.1245" y="-2" relative="1" as="geometry">
+            <mxPoint x="9" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-24" target="4ZcVzsqAaL9k_0RK0mdm-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="693" y="550.6000061035156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-24" value="将含有本RDNS的所有池合并" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="603" y="484.5" width="180" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-26" target="4ZcVzsqAaL9k_0RK0mdm-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="549.8000793457031" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-26" value="开新池，将该RDNS加入&lt;br&gt;将a.a.a.a与该池绑定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="485" width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-30" value="idInPool：标记本次发现池的行为中的子域名号&lt;br&gt;若没有，说明是第一个到达ADNS的请求&lt;br&gt;可以包含层次结构信息进一步研究" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="279" width="299" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-33" value="返回A记录，结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="633" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="518.3999633789062" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-39" value="[idInPool(new1~5)].构造域名" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZcVzsqAaL9k_0RK0mdm-38">
+          <mxGeometry x="0.006" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-37" value="挑选5个新的idInPool&lt;br&gt;生成5个新域名&lt;br&gt;返回CNAME" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="801" y="578" width="138" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-40" target="4ZcVzsqAaL9k_0RK0mdm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZcVzsqAaL9k_0RK0mdm-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZcVzsqAaL9k_0RK0mdm-41" target="4ZcVzsqAaL9k_0RK0mdm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
