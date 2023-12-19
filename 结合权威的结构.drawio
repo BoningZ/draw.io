@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T03:00:26.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.11" etag="FuoDdPkTyARhUpgYBnxh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T03:16:58.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="s91ef5aZbmoZNlE7vr8S" version="22.1.11" type="github">
   <diagram name="第 1 页" id="fDuEh7dfEiFLh7v94zZe">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-26" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;探测节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="315" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-1" value="中心节点&lt;br&gt;（也是权威服务器）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-4" value="1、向全国53端口发包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OzpHFi9GB1nhmmCZwnXx-3">
+          <mxGeometry x="-0.0166" relative="1" as="geometry">
+            <mxPoint x="-60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-2" target="OzpHFi9GB1nhmmCZwnXx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-17" value="3、扫描结果作为请求目的IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OzpHFi9GB1nhmmCZwnXx-16">
+          <mxGeometry x="-0.1333" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-2" value="端口扫描模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-5" value="全国IP" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-5" target="OzpHFi9GB1nhmmCZwnXx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-7" value="2、响应结果每分钟清洗一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OzpHFi9GB1nhmmCZwnXx-6">
+          <mxGeometry x="-0.1461" y="1" relative="1" as="geometry">
+            <mxPoint x="69" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-2" target="OzpHFi9GB1nhmmCZwnXx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-9" value="3、每分钟向中心发送扫描结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OzpHFi9GB1nhmmCZwnXx-8">
+          <mxGeometry x="-0.1738" y="2" relative="1" as="geometry">
+            <mxPoint x="-67" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-10" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="665" y="540" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.257;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-1" target="OzpHFi9GB1nhmmCZwnXx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-12" value="4、将扫描结果入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OzpHFi9GB1nhmmCZwnXx-11">
+          <mxGeometry x="-0.2954" y="-1" relative="1" as="geometry">
+            <mxPoint x="-44" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-13" value="特定请求模块&lt;br&gt;（请求www.ictdns.store）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-19" value="ODNS&lt;br&gt;RDNS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-13" target="OzpHFi9GB1nhmmCZwnXx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-21" value="4、向结果IP列表请求域名&lt;br&gt;[rand].f(IP).www.ictdns.store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OzpHFi9GB1nhmmCZwnXx-20">
+          <mxGeometry x="-0.0937" y="2" relative="1" as="geometry">
+            <mxPoint x="68" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-22" value="权威日志" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
+          <mxGeometry x="735" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=80;entryDy=26.5;entryPerimeter=0;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-19" target="OzpHFi9GB1nhmmCZwnXx-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="928" y="507" />
+              <mxPoint x="868" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="OzpHFi9GB1nhmmCZwnXx-22" target="OzpHFi9GB1nhmmCZwnXx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzpHFi9GB1nhmmCZwnXx-25" value="5、每小时分析，结果入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OzpHFi9GB1nhmmCZwnXx-24">
+          <mxGeometry x="0.0588" y="2" relative="1" as="geometry">
+            <mxPoint x="66" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
