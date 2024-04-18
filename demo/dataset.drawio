@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T08:14:56.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.0.5" etag="opOpZB85LW415GKLhDrG" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T08:20:23.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="mhq3HLdGAN1XUZYNIBj2" version="24.0.5" type="github">
   <diagram name="第 1 页" id="x_F4PFE9Y_MlBvsMnBGm">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDvRyNb_MUXCUUyJ7k2R-1" target="HDvRyNb_MUXCUUyJ7k2R-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDvRyNb_MUXCUUyJ7k2R-1" target="HDvRyNb_MUXCUUyJ7k2R-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDvRyNb_MUXCUUyJ7k2R-1" target="HDvRyNb_MUXCUUyJ7k2R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-1" value="原数据集" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HDvRyNb_MUXCUUyJ7k2R-3" target="HDvRyNb_MUXCUUyJ7k2R-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-3" value="起终点名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-4" value="运输时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="245" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-5" value="载荷" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDvRyNb_MUXCUUyJ7k2R-6" target="HDvRyNb_MUXCUUyJ7k2R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HDvRyNb_MUXCUUyJ7k2R-6" target="HDvRyNb_MUXCUUyJ7k2R-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-6" value="起终点经纬度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-7" value="起终点路程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-10" value="起终点名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="580" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-11" value="起终点名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="590" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-12" value="起终点名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="600" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-13" value="起终点名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="610" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-14" value="起终点名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-17" value="地点位置转换API" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-18" value="路径规划API" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HDvRyNb_MUXCUUyJ7k2R-19" value="路径耗时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
