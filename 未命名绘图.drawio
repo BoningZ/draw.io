@@ -4,23 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-47" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="210" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="50" width="210" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="CLI4j0MxpltVqXHwyUfP-21" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Benefits&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="532" y="70" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="186" y="50" width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-1" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Biochar&lt;/font&gt;&lt;div&gt;in&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sustainable&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Building&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Materials&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-21" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Benefits&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="532" y="70" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=11.17;notch=0;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="279" y="232" width="24" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=11.17;notch=0;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="282.5" y="163.5" width="18" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="CLI4j0MxpltVqXHwyUfP-1" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Biochar&lt;/font&gt;&lt;div&gt;in&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sustainable&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Building&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Materials&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="360" y="290" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-2" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.enterprise" vertex="1" parent="1">
           <mxGeometry x="377" y="360" width="30" height="50" as="geometry" />
@@ -50,28 +53,58 @@
           <mxGeometry x="319.5" y="265" width="41.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-32" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Carbon Storage&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.11;size=10;position=0.18;align=left;spacingLeft=14;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="509" y="212.5" width="157" height="50" as="geometry" />
+          <mxGeometry x="509" y="218.5" width="157" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/free-glyph-christmas-icons/24/Christmas_Tree-128.png" vertex="1" parent="1">
-          <mxGeometry x="623" y="215" width="33" height="33" as="geometry" />
+          <mxGeometry x="623" y="221" width="33" height="33" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-34" value="Waste Recycling" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.11;size=10;position=0.18;align=left;spacingLeft=10;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="509" y="113" width="157" height="49" as="geometry" />
+          <mxGeometry x="509" y="115" width="157" height="49" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-36" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_datasync;" vertex="1" parent="1">
-          <mxGeometry x="629" y="117.5" width="23.5" height="31" as="geometry" />
+          <mxGeometry x="629" y="119.5" width="23.5" height="31" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-38" value="Improved Insulation" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.89;size=10;position=0.7;align=right;spacingLeft=0;fontSize=13;base=20;spacingRight=2;" vertex="1" parent="1">
-          <mxGeometry x="544" y="162" width="157" height="50" as="geometry" />
+          <mxGeometry x="544" y="166" width="157" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-40" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cold_storage;" vertex="1" parent="1">
-          <mxGeometry x="554.31" y="168" width="25.49" height="28" as="geometry" />
+          <mxGeometry x="554.31" y="172" width="25.49" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="CLI4j0MxpltVqXHwyUfP-41" value="Green Economy" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.89;size=10;position=0.7;align=right;spacingLeft=0;fontSize=13;base=20;spacingRight=2;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="263" width="157" height="50" as="geometry" />
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-41" value="Green Economy" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.89;size=10;position=0.7;align=right;spacingLeft=0;fontSize=13;base=20;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="271" width="157" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CLI4j0MxpltVqXHwyUfP-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-1/24/bitcoin-128.png" vertex="1" parent="1">
-          <mxGeometry x="555.31" y="266" width="33" height="33" as="geometry" />
+          <mxGeometry x="550.55" y="277" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-48" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Policy Support&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="532" y="733" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-61" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Net-Zero Target&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;by 2050&lt;/span&gt;&lt;/div&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="455.5" width="104.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-57" value="Scottish Climate Change Act" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="522" y="440" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-62" value="Sustainable Materials Requirement" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="545.5" width="104.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-63" value="Scottish Building Standards" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="522" y="530" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-64" value="Innovation and Biochar Support" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="645" width="104.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-65" value="Scottish Energy Strategy and Just Transition Plan" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="522" y="620" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-75" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flags_gosquared/64/Scotland_flat.png" vertex="1" parent="1">
+          <mxGeometry x="583.55" y="495" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-76" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flags_gosquared/64/Scotland_flat.png" vertex="1" parent="1">
+          <mxGeometry x="583.55" y="585" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="CLI4j0MxpltVqXHwyUfP-77" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flags_gosquared/64/Scotland_flat.png" vertex="1" parent="1">
+          <mxGeometry x="583.55" y="685" width="35" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
